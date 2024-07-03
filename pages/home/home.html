@@ -1,2 +1,348 @@
 <!DOCTYPE html>
-<h1>Home Page</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Responsive Navigation</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../assets/css/home.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mx-0 ">
+        <nav class="fixed-top">
+            <div class="row fixed-top bg-dark" >
+              <ul class="ms-auto mb-2 mb-lg-0 nav-top-items p-2">
+                <li class="nav-item">
+                  <span class="nav-link"
+                    ><i class="fa fa-envelope" aria-hidden="true"></i>
+                    xyz@gmail.com</span
+                  >
+                </li>
+                <li class="nav-item">
+                  <span class="nav-link"
+                    ><i class="fa fa-mobile-phone" aria-hidden="true"></i> 91
+                    9414188750 / +91 9829928460</span
+                  >
+                </li>
+                <li class="nav-item d-flex">
+                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="fb" width="25px" /></a>
+                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/twit.png" alt="twitter" width="25px" /></a>
+                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/whatsapp.png" alt="s" width="25px" /></a>
+                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/insta.jpg" alt="insta" width="25px" /></a>
+                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="whatsapp" width="25px" /></a>
+                </li>
+                <li class="nav-item d-flex ">
+                  <select name="language" id="language">
+                    <option>select Language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Tamil">Tamil</option>
+                  </select>
+                </li>
+              </ul>
+            </div>
+            <div class="row mx-0 fixed-top navigation-options" id="navbarContent">
+              <div class="col-lg-4 col-sm-12 text-center p-1 ">
+                <img src="../../assets/images/logo-1.avif" alt="logo" class="img-fluid logo-img "/ >
+              </div>
+              <div class="col-8 text-right d-flex">
+                <div class="d-flex">
+                  <ul>
+                    <li class="page-nav">
+                      <a  href="#">HOME</a>
+                    </li>
+                    <li class="page-nav">
+                      <a  href="#">ABOUT</a>
+                    </li>
+                    <li class="page-nav">
+                      <a  href="#">CONTACT</a>
+                    </li>
+                    <li class=" page-nav">
+                      <a  href="#">PRODUCTS</a>
+                    </li>
+                    <li class=" page-nav">
+                      <a  href="#">TERMS & CONDITIONS</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row mx-0 ">
+        <div
+          id="carouselExample"
+          class="carousel slide mt-12px "
+          data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../../assets/images/stone-3.jpg"
+                alt="First slide"
+                class="d-block img-fluid"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../assets/images/stone-3.jpg"
+                alt="Second slide"
+                class="d-block img-fluid w-90 h-60"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../../assets/images/stone-3.jpg"
+                alt="Third slide"
+                class="d-block img-fluid h-auto w-90" 
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="row mx-0 text-center mt-4">
+        <div class="col-10 text-left">
+          <h2> WELCOME TO <span class="highlight-color">GUPTA STONE</span> - NATURAL STONE SUPPLIER</h2>
+        </div>
+        <div class=" col-10 d-flex justify-content-center mt-2">
+          <span class="d-block mb-5 break-line"><span>
+        </div>
+      </div>
+      <div class="row mx-0 text-center ">
+        <div class="col-11 mx-auto">
+          <div class="row mx-auto">
+            <div class="col-4 mr-2">
+              <div class="text-left">
+                <h3>ABOUT <span class="highlight-color">US</span></h3>
+              </div>
+              <div class="border border-dark p-0 mt-4 mx-auto">
+                <div class="mx-0 p-0">
+                  <img src="../../assets/images/about-2.jpg" class="img-fluid w-100 " alt="logo "/>
+                </div>
+                <div class="d-flex">
+                  <p class="para m-0 p-2">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop.
+                  </p>
+                </div>
+                <div class="d-block read-more justify-content-end m-0 ">
+                  <button class="btn m-2" type="button">READ MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div id="carouselExampleAutoplaying" class="carousel slide mb-4 " data-bs-ride="carousel">
+                <div class="carousel-inner h-50 ">
+                  <div class="carousel-item active">
+                    <div>
+                      <div>
+                        <h4>BEST CUSTOMER <span class="highlight-color">SATISFACTION</span></h4>
+                      </div>
+                      <hr>
+                      <p class="para mt-2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div>
+                      <h4>ETHICALLY SOURCED <span class="highlight-color">STONE</span></h4>
+                      <hr>
+                      <p class="para mt-2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div>
+                      <h4>HIGH QUALITY <span class="highlight-color">PRODUCTS</span>.</h4>
+                      <hr>
+                      <p class="para mt-2">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-center mt-2">
+                <span class="d-block mb-5 break-line"></span>
+              </div>
+              <div class="testimonial">
+                <h3>CLIENTS <span class="highlight-color">TESTIMONIAL</span></h3>
+                <div class="testimonial-para">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="mx-4">
+                <div class="text-left">
+                  <h3>PRODUCT <span class="highlight-color"> SHOWCASE </span><h3>
+                </div>
+                <div id="carouselExampleAutoplaying" class="carousel slide mb-4 mt-4 " data-bs-ride="carousel">
+                  <div class="carousel-inner mx-auto test-carousel  w-100">
+                    <div class="carousel-item active">
+                      <div class="card-product">
+                        <div class="mx-auto p-0 text-center">
+                          <img src="../../assets/images/stone-1.jpg" class="card-img img-fluid m-0 p-0 w-100" alt=""/>
+                        </div>
+                        <div class="mt-3">
+                          <h5>Marble</h5>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          </p>
+                          <p>Read More</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card-product">
+                        <div class="mx-auto p-0 text-center">
+                          <img src="../../assets/images/stone-2.jpg" class="card-img img-fluid m-0 p-0 w-100" alt=""/>
+                        </div>
+                        <div class="mt-3">
+                          <h5>Marble</h5>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          </p>
+                          <p>Read More</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="card-product">
+                        <div class="mx-auto p-0 text-center">
+                          <img src="../../assets/images/stone-1.jpg" class="card-img img-fluid m-0 p-0 w-100" alt=""/>
+                        </div>
+                        <div class="mt-3">
+                          <h5>Marble</h5>
+                          <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          </p>
+                          <a href="">Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mt-5">
+        <span class="d-block mb-5 break-line"><span>
+      </div>
+      <div class="mt-3 row mx-auto my-5">
+        <div class="col-4 text-center">
+          <h2>OUR GLOBAL<span class="highlight-color"> PRESENCE</span></h2>
+        </div>
+        <div class="col-4 d-flex justify-content-center">
+          <div class="text-center mx-2">
+            <div>
+              <img src="../../assets/images/country-1.png" alt="country" class="w-50 h-50"/>
+            </div>
+            <p>America</p>
+          </div>
+          <div class="text-center  mx-2">
+            <div>
+              <img src="../../assets/images/country-1.png" alt="country" class="w-50 h-50"/>
+            </div>
+            <p>America</p>
+          </div>
+          <div class="text-center  mx-2">
+            <div>
+              <img src="../../assets/images/country-1.png" alt="country" class="w-50 h-50"/>
+            </div>
+            <p>America</p>
+          </div>
+          <div class="text-center  mx-2">
+            <div>
+              <img src="../../assets/images/country-1.png" alt="country" class="w-50 h-50"/>
+            </div>
+            <p>America</p>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="text-center  mx-2" >
+            <div>
+              <img src="../../assets/images/" alt="voucher" class="w-20 h-20" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mx-0 foot-part justify-content-center">
+        <div class="col-2 text-left">
+          <h3>About</h3>
+          <p>Gupta Stone is into export of natural stone field and offer a wide variety of stones to suit present day market trends.</p>
+        </div>
+        <div class="col-2 text-left">
+          <ul class="d-block foot-list">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>PRODUCT</li>
+            <li>PACKAGING</li>
+          </ul>
+        </div>
+        <div class="col-2 ">
+          <ul class="d-block foot-list">
+            <li>PH NO.</li>
+            <li>+91 98299 28460 ,<li>
+            <li>+91 99820 88750 ,</li>
+            <li>info@guptastone.com</li>
+            <li>deepak@guptastone.com</li>
+          </ul>
+        </div>
+        <div class="col-2 text-left align-items-center p-4">
+          <h6>CONNECT WITH US</h6>
+        </div>
+        <div class="col-2 text-left">
+          <img src="../../assets/images/fb.png" alt="logo" width="20%"/>
+          <img src="../../assets/images/twit.png" alt="logo" width="20%"/>
+          <img src="../../assets/images/fb.png" alt="logo" width="20%"/>
+          <img src="../../assets/images/insta.jpg" alt="logo" width="20%"/>
+        </div>
+      </div>
+      <div class="row mx-0 footer">
+        <div class="col-6">
+          <h6>Crafted by Web Crayons Biz</h6>
+        </div>
+        <div class="col-6">
+          <h6>Crafted by Web Crayons BizCopyright © 2023 Gupta Stone. All Rights Reserved</h6>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
