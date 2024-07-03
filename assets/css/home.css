@@ -1,3 +1,124 @@
-#he {
-  color: #000;
+*{
+font-family:Arial, Helvetica, sans-serif;
+}
+.logo-img{
+  opacity:0.6;
+  width:30%;
+  height:20%;
+}
+.nav-top-items{
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  display:flex;
+  padding:6px;
+  justify-content:end;
+}
+.nav-item{
+  margin-right:30px;
+}
+.highlight-color{
+  color:goldenrod;
+}
+.navigation-options{
+  background-color: rgba(0,0,0,0.5);
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  align-items: right;
+  list-style-type: none;
+  font-size: 16px;
+}
+.page-nav{
+  color:white;
+  padding:15px; 
+  margin-left:20px;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.carousel slide{
+  margin-top:400px;
+}
+.carousel-inner{
+  height:700px;
+}
+.item{
+  height:100%;
+  width:100%;
+}
+.break-line{
+  background-color:goldenrod;
+  height:1px;
+  margin-bottom:0px;
+  width:80%;
+}
+.para{
+  line-height:25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  text-align: justify;
+  padding:14px;
+  margin-top:12px;
+}
+.read-more{
+  align-items: end;
+}
+.read-more button{
+  background-color: rgb(233, 233, 27);
+  justify-content: end;
+}
+.testimonial{
+  text-align: justify;
+  padding:14px;
+  margin-top:12px;
+}
+.testimonial-para{
+  border:1px solid black;
+  padding:5px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  gap:3px;
+}
+.test-carousel{
+  width:70%;
+  height:100%;
+}
+.card-product{
+  background-color: rgba(0,0,0,0.7);
+  padding:19px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  color:white;
+  text-align: justify;
+
+}
+.card-img{
+  width:50%;
+  height:50%;
+  padding:0px;
+  margin-bottom: 12px;;
+}
+.foot-part{
+  background-color:rgba(17, 10, 10, 0.6);
+  color:white;
+  margin:auto;
+  padding:12px;
+
+}
+.foot-list{
+  text-align: left;
+}
+.footer{
+  background-color: black;
+  color:white;
+  padding:2px;
 }
