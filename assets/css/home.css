@@ -83,10 +83,10 @@ a{
 }
 .testimonial-para{
   border:1px solid black;
-  padding:5px;
-  font-size: 20px;
+  padding:9px;
+  font-size: 16px;
   font-family: 'Times New Roman', Times, serif;
-  gap:3px;
+  gap:2px;
 }
 .test-carousel{
   width:70%;
