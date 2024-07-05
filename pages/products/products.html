@@ -15,6 +15,7 @@
         href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
         rel="stylesheet"
       />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -23,62 +24,63 @@
   </head>
   <body>
     <div class="container p-0">
-      <div class="row mx-0 nav-div">
-        <nav class="fixed-top">
-            <div class="row fixed-top bg-dark" >
-              <ul class="ms-auto mb-2 mb-lg-0 nav-top-items p-2">
-                <li class="nav-item">
-                  <span class="nav-link"
-                    ><i class="fa fa-envelope" aria-hidden="true"></i>
-                    xyz@gmail.com</span
-                  >
+      <nav class="fixed-top">
+        <div class="row d-none d-sm-block fixed-top bg-dark" >
+          <ul class="ms-auto mb-2 mb-lg-0 nav-top-items p-2">
+            <li class="nav-item">
+              <span class="nav-link"
+                ><i class="fa fa-envelope" aria-hidden="true"></i>
+                xyz@gmail.com</span
+              >
+            </li>
+            <li class="nav-item">
+              <span class="nav-link"
+                ><i class="fa fa-mobile-phone" aria-hidden="true"></i> 91
+                9414188750 / +91 9829928460</span
+              >
+            </li>
+            <li class="nav-item d-flex">
+              <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="fb" width="25px" /></a>
+              <a class="nav-link mx-1" href="#"><img src="../../assets/images/twit.png" alt="twitter" width="25px" /></a>
+              <a class="nav-link mx-1" href="#"><img src="../../assets/images/whatsapp.png" alt="s" width="25px" /></a>
+              <a class="nav-link mx-1" href="#"><img src="../../assets/images/insta.jpg" alt="insta" width="25px" /></a>
+              <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="whatsapp" width="25px" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="row mx-0 fixed-top navigation-options" id="navbarContent">
+          <div class="text-center p-1 d-flex align-items-center justify-content-around">
+            <img src="../../assets/images/logo-1.avif" alt="logo" class="img-fluid logo-img" style="max-width: 130px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-dark"><i class="fas fa-bars pt-1"></i></span>
+            </button>
+          </div>
+          <div class="col-sm-8 text-right">
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto page-nav">
+                <li class="nav-item page-nav">
+                  <a class="nav-link" href="../home/home.html">HOME</a>
                 </li>
-                <li class="nav-item">
-                  <span class="nav-link"
-                    ><i class="fa fa-mobile-phone" aria-hidden="true"></i> 91
-                    9414188750 / +91 9829928460</span
-                  >
+                <li class="nav-item page-nav">
+                  <a class="nav-link" href="../aboutus/aboutus.html">ABOUT US</a>
                 </li>
-                <li class="nav-item d-flex">
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="fb" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/twit.png" alt="twitter" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/whatsapp.png" alt="s" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/insta.jpg" alt="insta" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="whatsapp" width="25px" /></a>
+                <li class="nav-item page-nav">
+                  <a class="nav-link" href="../contactus/contactus.html">CONTACT US</a>
+                </li>
+                <li class="nav-item page-nav">
+                  <a class="nav-link" href="../products/products.html">PRODUCTS</a>
+                </li>
+                <li class="nav-item page-nav">
+                  <a class="nav-link" href="../termsCondition/terms.html">TERMS & CONDITIONS</a>
                 </li>
               </ul>
             </div>
-            <div class="row mx-0 fixed-top navigation-options" id="navbarContent">
-              <div class="col-lg-4 col-sm-12 text-center p-1 ">
-                <img src="../../assets/images/logo-1.avif" alt="logo" class="img-fluid logo-img "/ >
-              </div>
-              <div class="col-8 text-right d-flex">
-                <div class="d-flex">
-                  <ul>
-                    <li class="page-nav">
-                      <a  href="../home/home.html">HOME</a>
-                    </li>
-                    <li class="page-nav">
-                      <a  href="../aboutus/aboutus.html">ABOUT US</a>
-                    </li>
-                    <li class="page-nav">
-                      <a  href="../contactus/contactus.html">CONTACT US</a>
-                    </li>
-                    <li class=" page-nav">
-                      <a  href="../products/products.html">PRODUCTS</a>
-                    </li>
-                    <li class=" page-nav">
-                      <a  href="#">TERMS & CONDITIONS</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
-        </nav>
+        </div>
       </div>
-      <div class="row mx-0 products-main-section">
-        <div>
+    </nav>
+      <div class="row mx-0 my-5 py-5 products-main-section">
+        <div class="my-5">
           <div class="row mx-5  my-3 text-center about-heading">
             <h1>OUR <span class="highlight-color">PRODUCTS</span></h1>
           </div>
@@ -94,19 +96,19 @@
             </p>
           </div>
           <div class="row mx-0 my-5">
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-1.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-2.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-3.jpg" alt="image" class="img-fluid" />
               </div>
@@ -114,19 +116,19 @@
             </div>
           </div>
           <div class="row mx-0 my-5">
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-1.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-2.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-3.jpg" alt="image" class="img-fluid" />
               </div>
@@ -142,19 +144,19 @@
             </p>
           </div>
           <div class="row mx-0 my-5">
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-1.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Blue Ice</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-2.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Bijoliya Buff</h5>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-3.jpg" alt="image" class="img-fluid" />
               </div>
@@ -163,19 +165,19 @@
             </div>
           </div>
           <div class="row mx-0 mb-3">
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-1.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-2.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Slate Grey</h5>
             </div>
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
               <div class="mb-2 product-img">
                 <img src="../../assets/images/products/paving-3.jpg" alt="image" class="img-fluid" />
               </div>
@@ -191,13 +193,13 @@
             </p>
           </div>
           <div class="row mx-0 my-4">
-            <div class="col-6 text-center">
+            <div class="col-12 col-md-6 text-center">
               <div class="mb-2 product-circle-img">
                 <img src="../../assets/images/products/circle-1.jpg" alt="image" class="img-fluid " />
               </div>
               <h5>BN Blue Ice</h5>
             </div>
-            <div class="col-6 text-center ">
+            <div class="col-12 col-md-6 text-center ">
               <div class="mb-2 product-circle-img">
                 <img src="../../assets/images/products/circle-2.jpg" alt="image" class="img-fluid" />
               </div>
@@ -213,19 +215,19 @@
             </p>
           </div>
           <div class="row mx-0 my-5">
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-step-img">
                 <img src="../../assets/images/products/step-2.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Moon Light Grey (Ravina)</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-step-img">
                 <img src="../../assets/images/products/step-1.jpg" alt="image" class="img-fluid" />
               </div>
               <h5>BN Moon Light Grey (Ravina)Wet</h5>
             </div>
-            <div class="col-4 text-center ">
+            <div class="col-12 col-md-4 text-center ">
               <div class="mb-2 product-step-img">
                 <img src="../../assets/images/products/step-3.jpg" alt="image" class="img-fluid" />
               </div>
@@ -234,46 +236,50 @@
           </div>
         </div>
       </div>
-      <div class="row mx-0 p-3 m-0 justify-content-center foot-part">
-        <div class="col-2 text-left">
-          <h3>About</h3>
+      <div class="row mx-0 foot-part justify-content-center">
+        <div class="col-lg-2 col-12 text-left ">
+          <h3 class="text-left">About</h3>
           <p>Gupta Stone is into export of natural stone field and offer a wide variety of stones to suit present day market trends.</p>
         </div>
-        <div class="col-2 text-left">
-          <ul class="d-block foot-list">
-            <li>HOME</li>
-            <li>ABOUT</li>
-            <li>PRODUCT</li>
-            <li>PACKAGING</li>
+        <div class="col-12 col-sm-12 col-lg-2 text-left">
+          <ul class="d-sm-block d-flex foot-list">
+            <li class="m-1">HOME</li>
+            <li class="m-1">ABOUT</li>
+            <li class="m-1">PRODUCT</li>
+            <li class="m-1">PACKAGING</li>
           </ul>
         </div>
-        <div class="col-2 ">
+        <div class="col-12 col-md-6 col-lg-2 ">
           <ul class="d-block foot-list">
-            <li>PH NO.</li>
-            <li>+91 98299 28460 ,<li>
-            <li>+91 99820 88750 ,</li>
-            <li>info@guptastone.com</li>
-            <li>deepak@guptastone.com</li>
+            <li class="m-1">PH NO.</li>
+            <li class="m-1">+91 98299 28460 ,<li>
+            <li class="m-1">+91 99820 88750 ,</li>
+            <li class="m-1">info@guptastone.com</li>
+            <li class="m-1">deepak@guptastone.com</li>
           </ul>
         </div>
-        <div class="col-2 text-left align-items-center p-4">
+        <div class="col-12 col-md-6 col-lg-2 text-md-center align-items-center p-4 p-lg-0">
           <h6>CONNECT WITH US</h6>
-        </div>
-        <div class="col-2 text-left">
-          <img src="../../assets/images/fb.png" alt="logo" width="20%"/>
-          <img src="../../assets/images/twit.png" alt="logo" width="20%"/>
-          <img src="../../assets/images/fb.png" alt="logo" width="20%"/>
-          <img src="../../assets/images/insta.jpg" alt="logo" width="20%"/>
+          <div class="col-12 text-left text-center">
+            <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
+            <img src="../../assets/images/twit.png" alt="logo" width="40px"/>
+            <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
+            <img src="../../assets/images/insta.jpg" alt="logo" width="40px"/>
+          </div>
         </div>
       </div>
-      <div class="row mx-0 p-0 d-flex text-center footer">
-        <div class="col-6 ">
+      
+      <div class="row mx-0 d-flex  text-center  footer mx-auto">
+        <div class="col-12 col-md-6">
           <h6>Crafted by DataCode</h6>
         </div>
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h6>Crafted by DataCode Copyright © 2023 Gupta Stone. All Rights Reserved</h6>
         </div>
       </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>

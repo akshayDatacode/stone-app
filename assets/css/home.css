@@ -52,7 +52,7 @@ a{
   margin-top:400px;
 }
 .carousel-inner{
-  height:500px;
+  max-height:500px;
 }
 .item{
   height:100%;
