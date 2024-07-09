@@ -20,7 +20,7 @@ font-family:Arial, Helvetica, sans-serif;
   margin-right:30px;
 }
 .highlight-color{
-  color:goldenrod;
+  color:#4f42b5;
 }
 .navigation-options{
   background-color: rgba(0,0,0,0.5);
@@ -59,7 +59,7 @@ a{
   width:100%;
 }
 .break-line{
-  background-color:goldenrod;
+  background-color:#4f42b5;
   height:1px;
   margin-bottom:0px;
   width:80%;
@@ -75,7 +75,8 @@ a{
   align-items: end;
 }
 .read-more button{
-  background-color: rgb(233, 233, 27);
+  background-color: #4f42b5;
+  color:white;
   justify-content: end;
 }
 .testimonial{
