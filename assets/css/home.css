@@ -13,13 +13,11 @@
   background-color: rgb(79, 66, 180);
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding:12px;
 }
 .navbar-heading {
-  font-family:sans-serif;
-  margin-left:10px ;
   align-items: center;
 }
 ul {
@@ -41,7 +39,7 @@ a {
   color: white;
 }
 .cslide{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .carousel-inner {
   max-height: 500px;
@@ -107,10 +105,21 @@ a {
 }
 .foot-list {
   text-align: left;
-  justify-content: end;
+  display:block;
 }
 @media(max-width: 786px) {
   .navbar-heading{
     justify-content: space-between;
+  }
+  .foot-part {
+    background-color: #0f2f7b;
+    color: white;
+    margin: auto;
+    padding: 0px;
+  }
+  .foot-list {
+    text-align: left;
+    display:block;
+    padding:0px;
   }
 }
