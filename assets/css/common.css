@@ -31,7 +31,7 @@ ul {
   text-align: right;
   align-items: right;
   list-style-type: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 .nav-link {
   color: white;
@@ -50,7 +50,7 @@ a {
   width: 80%;
 }
 .foot-part {
-  background-color: var(--footer-color);
+  background-color: black;
   color: white;
   margin: auto;
   padding: 12px;
@@ -58,16 +58,17 @@ a {
 .foot-list {
   text-align: left;
   display: block;
+  font-size: 18px;
 }
 @media (max-width: 786px) {
   .navbar-heading {
     justify-content: space-between;
   }
   .foot-part {
-    background-color: var(--footer-color);
+    background-color: black;
     color: white;
     margin: auto;
-    padding: 0px;
+    padding: 8dpx;
   }
   .foot-list {
     text-align: left;
