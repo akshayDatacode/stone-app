@@ -60,6 +60,13 @@ a {
   display: block;
   font-size: 18px;
 }
+.footer-social-link{
+  transition: transform 0.3s ease-in-out;
+
+}
+.footer-social-link:hover {
+  transform: scale(1.2);
+}
 @media (max-width: 786px) {
   .navbar-heading {
     justify-content: space-between;
