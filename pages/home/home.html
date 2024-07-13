@@ -6,10 +6,8 @@
     <title>Responsive Navigation</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
     <link
       href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
       rel="stylesheet"
@@ -20,121 +18,84 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="../../assets/css/home.css" />
+    <link rel="stylesheet" href="../../assets/css/common.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row mx-0 nav-div">
-        <nav class="fixed-top">
-            <div class="row d-none d-sm-block fixed-top bg-dark" >
-              <ul class="ms-auto mb-2 mb-lg-0 nav-top-items p-2">
-                <li class="nav-item">
-                  <span class="nav-link"
-                    ><i class="fa fa-envelope" aria-hidden="true"></i>
-                    xyz@gmail.com</span
-                  >
-                </li>
-                <li class="nav-item">
-                  <span class="nav-link"
-                    ><i class="fa fa-mobile-phone" aria-hidden="true">   
-                    </i> 
-                    (+91) 7726997368 / (+91) 9352311111</span
-                  >
-                </li>
-                <li class="nav-item d-flex">
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="fb" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/twit.png" alt="twitter" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/whatsapp.png" alt="s" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/insta.jpg" alt="insta" width="25px" /></a>
-                  <a class="nav-link mx-1" href="#"><img src="../../assets/images/fb.png" alt="whatsapp" width="25px" /></a>
-                </li>
-              </ul>
+    <div class="container-fluid px-0">
+      <div class="row mx-0 px-0 ">
+        <nav class="navbar navbar-expand-lg fixed-top navigation-options">
+          <div class="col-lg-4 d-flex navbar-heading">
+            <div>
+              <h3>SURYA STONE & BUILDERS</h3>
             </div>
-            <div class="row mx-0 fixed-top navigation-options" id="navbarContent">
-              <div class="text-center p-1 d-flex align-items-center justify-content-around">
-                <img src="../../assets/images/logo-1.avif" alt="logo" class="img-fluid logo-img" style="max-width: 130px;">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon bg-dark"><i class="fas fa-bars pt-1"></i></span>
-                </button>
-              </div>
-              <div class="col-sm-8 text-right">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav ml-auto page-nav">
-                    <li class="nav-item page-nav">
-                      <a class="nav-link" href="../home/home.html">HOME</a>
-                    </li>
-                    <li class="nav-item page-nav">
-                      <a class="nav-link" href="../aboutus/aboutus.html">ABOUT US</a>
-                    </li>
-                    <li class="nav-item page-nav">
-                      <a class="nav-link" href="../contactus/contactus.html">CONTACT US</a>
-                    </li>
-                    <li class="nav-item page-nav">
-                      <a class="nav-link" href="../products/products.html">PRODUCTS</a>
-                    </li>
-                    <li class="nav-item page-nav">
-                      <a class="nav-link" href="../termsCondition/terms.html">TERMS & CONDITIONS</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+            <div>
+              <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>              
             </div>
+          </div>
+          <div class="col-lg-8 collapse navbar-collapse navbar-mnu" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-0 ">
+              <li class="nav-item active ">
+                <a class="nav-link" href="../home/home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="../aboutus/aboutus.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contactus/contactus.html">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../products/products.html">PRODUCTS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../termsCondition/terms.html">TERMS & CONDITIONS</a>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
-      <div class="row mx-0">
-        <div
-          id="carouselExample"
-          class="carousel slide  px-0 "
-          data-bs-ride="carousel">
+      <div class="row mx-0 px-0 carousel-div">
+        <div id="carouselExampleAutoplaying" class="carousel slide p-0 mx-0" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="../../assets/images/stone-3.jpg"
-                alt="First slide"
-                class="d-block img-fluid h-50"
+                src="../../assets/images/slider/slider-1.webp"
+                alt="first slide"
+                class="d-block img-fluid"
               />
             </div>
             <div class="carousel-item">
               <img
-                src="../../assets/images/slider-2.webp"
-                alt="Second slide"
-                class="d-block img-fluid  h-60"
-              />
+                  src="../../assets/images/slider/slider-2.webp"
+                  alt="second slide"
+                  class="d-block img-fluid " 
+                />
             </div>
             <div class="carousel-item">
               <img
-                src="../../assets/images/slider-1.webp"
-                alt="Third slide"
-                class="d-block img-fluid " 
-              />
+                  src="../../assets/images/slider/slider-3.jpg"
+                  alt="Third slide"
+                  class="d-block img-fluid " 
+                />
             </div>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="prev"
-          >
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExample"
-            data-bs-slide="next"
-          >
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </div>
-      <div class="row mx-1 text-center py-5">
-        <div class="col-11">
-          <h2> WELCOME TO <span class="highlight-color">GUPTA STONE</span> - NATURAL STONE SUPPLIER</h2>
+      <div class="row mx-0 text-center py-5">
+        <div class="col-12">
+          <h2> WELCOME TO <span class="highlight-color"> SURYA STONE & BULDERS </span> </h2>
         </div>
-        <div class="col-11 d-flex justify-content-center mt-2">
-          <span class="d-block mb-5 break-line"><span>
+        <div class="col-12 d-flex justify-content-center mt-2">
+          <span class="d-block mb-lg-5 mb-sm-2 break-line"><span>
         </div>
       </div>
       <div class="row mx-0 text-center ">
@@ -205,7 +166,7 @@
                   <div class="carousel-item active">
                     <div class="testimonial">
                       <div class="testimonial-para">
-                        <p><i class="fa fa-quote-left" aria-hidden="true"></i> Gupta Stone delivered products In-Time and that too as per our exact 
+                        <p><i class="fa fa-quote-left" aria-hidden="true"></i> Surya Stone delivered products In-Time and that too as per our exact 
                           requirements. The staff is very friendly and understanding, and guided us
                             very well. Cheers..!! <i class="fa fa-quote-right" aria-hidden="true"></i>
                         </p>
@@ -219,7 +180,7 @@
                     <div class="testimonial">
                       <div class="testimonial-para">
                         <p><i class="fa fa-quote-left" aria-hidden="true"></i> Though our requirements were small, still the people working at
-                          Gupta Stone served us very well. The staff told us about the latest trends.
+                          Surya Stone served us very well. The staff told us about the latest trends.
                           <i class="fa fa-quote-right" aria-hidden="true"></i>
                         </p>
                         <div>
@@ -231,7 +192,7 @@
                   <div class="carousel-item">
                     <div class="testimonial">
                       <div class="testimonial-para">
-                        <p><i class="fa fa-quote-left" aria-hidden="true"></i> The products supplied by Gupta Stone were top notch and of the 
+                        <p><i class="fa fa-quote-left" aria-hidden="true"></i> The products supplied by Surya Stone were top notch and of the 
                           highest quality. We'll love to work with you again.
                           <i class="fa fa-quote-right" aria-hidden="true"></i>
                         </p>
@@ -300,37 +261,37 @@
           </div>
         </div>
       </div>
-      
-      <div class="d-flex justify-content-center mt-5">
+      <div class="row mx-0">
+        <div class="col-12 d-flex justify-content-center mt-5">
         <span class="d-block mb-5 break-line"><span>
+        </div>
       </div>
-      
-      <div class="row mx-auto mt-3 my-5">
-        <div class="col-11 mx-auto">
-          <div class="row">
-            <div class="col-12 col-lg-4 text-center">
-              <h4>OUR GLOBAL<span class="highlight-color"> PRESENCE</span></h4>
+      <div class="row mx-0 mt-3 my-5">
+        <div class="col-12 mx-auto">
+          <div class="row text-center p-1">
+            <div class="col-sm-12 col-lg-4">
+              <h2>OUR GLOBAL<span class="highlight-color"> PRESENCE</span></h2>
             </div>
-            <div class="col-12 col-lg-4 d-flex justify-content-center">
-              <div class="text-center mx-2">
+            <div class="col-sm-12 col-lg-4 d-flex justify-content-space-evenly">
+              <div class="text-center">
                 <div>
                   <img src="../../assets/images/countries/country-2.png" alt="country" class="w-50 h-50"/>
                 </div>
                 <p>UK</p>
               </div>
-              <div class="text-center  mx-2">
+              <div class="text-center">
                 <div>
                   <img src="../../assets/images/countries/country-3.jpg" alt="country" class="w-50 h-50"/>
                 </div>
                 <p>China</p>
               </div>
-              <div class="text-center  mx-2">
+              <div class="text-center">
                 <div>
                   <img src="../../assets/images/countries/country-1.png" alt="country" class="w-50 h-50"/>
                 </div>
                 <p>America</p>
               </div>
-              <div class="text-center  mx-2">
+              <div class="text-center">
                 <div>
                   <img src="../../assets/images/country-2.png" alt="country" class="w-50 h-50"/>
                 </div>
@@ -347,51 +308,43 @@
           </div>
         </div>
       </div>
-      
-      <div class="row mx-0 foot-part justify-content-center">
-        <div class="col-lg-2 col-12 text-left ">
+      <div class="row mx-0 py-5 justify-content-center foot-part">
+        <div class="col-lg-3 col-sm-12">
           <h3 class="text-left">About</h3>
-          <p>Gupta Stone is into export of natural stone field and offer a wide variety of stones to suit present day market trends.</p>
+          <p>Surya Stone is into export of natural stone field and offer a wide
+             variety of stones to suit present day market trends.</p>
         </div>
-        <div class="col-12 col-sm-12 col-lg-2 text-left">
-          <ul class="d-sm-block d-flex foot-list">
-            <li class="m-1">HOME</li>
-            <li class="m-1">ABOUT</li>
-            <li class="m-1">PRODUCT</li>
-            <li class="m-1">PACKAGING</li>
+        <div class="col-lg-3 col-sm-12">
+          <ul class="foot-list">
+            <li><a href="../home/home.html">HOME</a></li>
+            <li><a href="../aboutus/aboutus.html">ABOUT</a></li>
+            <li><a href="../contactus/contactus.html">CONTACT</a></li>
+            <li><a href="../products/products.html">PRODUCT</a></li>
+            <li><a href="../termsCondition/terms.html">TERMS & CONDITIONS</a></li>
           </ul>
         </div>
-        <div class="col-12 col-md-6 col-lg-2 ">
-          <ul class="d-block foot-list">
-            <li class="m-1">PH NO.</li>
-            <li class="m-1">(+91) 7726997368<li>
-            <li class="m-1">(+91) 9352311111 ,</li>
-            <li class="m-1">info@guptastone.com</li>
-            <li class="m-1">deepak@guptastone.com</li>
+        <div class="col-lg-3 col-sm-12">
+          <ul class="foot-list">
+            <li >PH NO.</li>
+            <li>(+91) 9352311111<li>
+            <li>(+91) 7726997368</li>
           </ul>
         </div>
-        <div class="col-12 col-md-6 col-lg-2 text-md-center align-items-center p-4 p-lg-0">
-          <h6>CONNECT WITH US</h6>
-          <div class="col-12 text-left text-center">
-            <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
-            <img src="../../assets/images/twit.png" alt="logo" width="40px"/>
-            <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
-            <img src="../../assets/images/insta.jpg" alt="logo" width="40px"/>
+        <div class="col-lg-3 col-sm-12 text-md-center align-items-center">
+          <div class="row">
+            <div class="col-12">
+              <h6>CONNECT WITH US</h6>
+            </div>
+            <div class="col-12">
+              <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
+              <img src="../../assets/images/twit.png" alt="logo" width="40px"/>
+              <img src="../../assets/images/fb.png" alt="logo" width="40px"/>
+              <img src="../../assets/images/insta.jpg" alt="logo" width="40px"/>
+            </div>
           </div>
         </div>
-      </div>
-      
-      <div class="row mx-0 d-flex  text-center  footer mx-auto">
-        <div class="col-12 col-md-6">
-          <h6>Crafted by DataCode</h6>
-        </div>
-        <div class="col-12 col-md-6">
-          <h6>Crafted by DataCode Copyright © 2023 Gupta Stone. All Rights Reserved</h6>
-        </div>
-      </div>
+      </div> 
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
