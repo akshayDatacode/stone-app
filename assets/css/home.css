@@ -29,11 +29,6 @@
   color: white;
   justify-content: end;
 }
-.testimonial {
-  text-align: justify;
-  padding: 14px;
-  margin-top: 12px;
-}
 .testimonial-para {
   border: 1px solid black;
   padding: 9px;
@@ -46,8 +41,8 @@
 }
 .card-product {
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 19px;
-  font-size: 18px;
+  padding: 20px;
+  font-size: 16px;
   color: white;
   text-align: justify;
 }
