@@ -12,7 +12,7 @@
   line-height: 25px;
   font-size: 16px;
   text-align: justify;
-  padding: 15px;
+  padding:10px;
   margin-top: 12px;
 }
 .testimonial-para {
@@ -40,8 +40,8 @@
   }
   .card-product {
     background-color: rgba(0, 0, 0, 0.7);
-    padding:10px;
-    font-size: 16px;
+    padding:20px;
+    font-size: 14px;
     color: white;
     text-align: justify;
   }

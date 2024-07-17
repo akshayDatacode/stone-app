@@ -16,16 +16,16 @@
   background-color: var(--theme-color);
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 12px;
 }
 .navbar-heading {
   align-items: left;
-  justify-content: start;
+  justify-content: center;
 }
 .navbar-mnu {
   text-align: end;
-  justify-content: end;
+  justify-content: center
 }
 ul {
   display: flex;
@@ -33,12 +33,11 @@ ul {
   text-align: right;
   align-items: right;
   list-style-type: none;
-  font-size: 18px;
 }
 .nav-link {
   color: white;
   padding: 15px;
-  font-size: 15px;
+  font-size: 14px;
   margin-left: 20px;
   justify-content: end;
 }
