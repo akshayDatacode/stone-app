@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Merriweather", serif;
   margin: 0px;
   padding: 0px;
 }
@@ -36,6 +38,7 @@ ul {
 .nav-link {
   color: white;
   padding: 15px;
+  font-size: 15px;
   margin-left: 20px;
   justify-content: end;
 }
@@ -50,22 +53,20 @@ a {
   width: 80%;
 }
 .foot-part {
-  background-color: black;
+  background-color: rgba(0, 0, 0,0.7);
   color: white;
-  margin: auto;
-  padding: 12px;
 }
 .foot-list {
   text-align: left;
   display: block;
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (max-width: 786px) {
   .navbar-heading {
     justify-content: space-between;
   }
   .foot-part {
-    background-color: black;
+    background-color: rgba(0, 0, 0,0.7);
     color: white;
     margin: auto;
     padding: 8dpx;
