@@ -4,39 +4,23 @@
 .carousel-inner {
   max-height: 500px;
 }
-.item {
-  height: 100%;
-  width: 100%;
-}
 .break-line {
   background-color: var(--theme-color);
   height: 1px;
-  margin-bottom: 0px;
-  width: 80%;
 }
 .para {
   line-height: 25px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
-  padding: 14px;
+  padding:10px;
   margin-top: 12px;
-}
-.read-more {
-  align-items: end;
-}
-.read-more button {
-  background-color: var(--theme-color);
-  color: white;
-  justify-content: end;
 }
 .testimonial-para {
   border: 1px solid black;
-  padding: 9px;
   font-size: 16px;
-  gap: 2px;
 }
 .test-carousel {
-  width: 70%;
+  width: 80%;
   height: 100%;
 }
 .card-product {
@@ -47,8 +31,22 @@
   text-align: justify;
 }
 .card-img {
-  width: 50%;
-  height: 50%;
-  padding: 0px;
-  margin-bottom: 12px;
+  object-fit: cover;
+  height:30vh;
+}
+@media (max-width: 786px) {
+  .test-carousel {
+    width: 100%;
+  }
+  .card-product {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding:20px;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+  }
+  .card-img {
+    object-fit: container;
+    height:20vh;
+  }
 }
