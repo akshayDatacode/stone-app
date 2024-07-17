@@ -31,7 +31,7 @@
   text-align: justify;
 }
 .card-img {
-  object-fit: container;
+  object-fit: cover;
   height:30vh;
 }
 @media (max-width: 786px) {

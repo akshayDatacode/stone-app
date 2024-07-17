@@ -1,0 +1,13 @@
+.gallery-img{
+  padding:14px;
+}
+.gallery-img img {
+  border: 0.5px solid rgba(0, 0, 0, 0.4); 
+  border-radius:2px;
+  padding: 3px; 
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
+}
+
+.gallery-img img:hover {
+  background-color: #0077be;  
+}
