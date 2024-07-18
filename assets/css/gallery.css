@@ -11,3 +11,9 @@
 .gallery-img img:hover {
   background-color: #0077be;  
 }
+
+@media(max-width:786px) {
+  .gallery-main-img{
+    margin-top:84px;
+  }
+}
