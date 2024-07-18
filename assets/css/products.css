@@ -1,10 +1,10 @@
 .products-main-section h3{
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
     color:#000;
 }
 .products-main-section p{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     text-align: justify;
 }
@@ -12,7 +12,7 @@
     width: 100%;
     height: auto; 
     max-height: 200px; 
-    padding:10px;
+    padding:5px;
 }
 .product-circle-img img{
     width: 100%;
@@ -26,3 +26,4 @@
     object-fit: cover;
     padding:10px;
 }
+

@@ -34,7 +34,7 @@
   object-fit: cover;
   height:30vh;
 }
-@media (max-width: 786px) {
+@media (max-width: 600px) {
   .test-carousel {
     width: 100%;
   }
@@ -47,6 +47,6 @@
   }
   .card-img {
     object-fit: container;
-    height:20vh;
+    height:24vh;
   }
 }
