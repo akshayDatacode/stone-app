@@ -1,17 +1,18 @@
 .about-image{
     margin-top:83px;
 }
-.founder-name{
+.founder-name,.team-member-name{
     color:#0a0a0af8;
     justify-content: center;
     padding:4px;
     width:auto;
+    font-size: 18px;
 }
 .about-founder p{
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 }
 .about-para{
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 }
