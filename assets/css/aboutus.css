@@ -13,6 +13,9 @@
     text-align: justify;
     font-size: 18px;
 }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fbffc0;
+  }
 .about-para{
     text-align: justify;
     font-size: 18px;

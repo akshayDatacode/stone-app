@@ -29,6 +29,9 @@
   text-align: end;
   justify-content: center
 }
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fbffc0;
+}
 ul {
   display: flex;
   justify-content: center;
