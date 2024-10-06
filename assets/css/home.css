@@ -1,28 +1,46 @@
-.carousel-div{
-  margin-top:76px;
+.carousel-div {
+  margin-top: 76px;
 }
+
 .carousel-inner {
   max-height: 500px;
 }
+
 .break-line {
   background-color: var(--theme-color);
   height: 1px;
 }
+
 .para {
   line-height: 25px;
   font-size: 16px;
   text-align: justify;
-  padding:10px;
+  padding: 10px;
   margin-top: 12px;
 }
+
 .testimonial-para {
   border: 1px solid black;
   font-size: 16px;
 }
+
 .test-carousel {
   width: 80%;
   height: 100%;
 }
+
+.nav-link:focus a {
+  color: aliceblue !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #fbffc0;
+}
+
+.nav-link:hover a {
+  color: aliceblue !important;
+}
+
 .card-product {
   background-color: var(--theme-color);
   padding: 20px;
@@ -30,25 +48,27 @@
   color: white;
   text-align: justify;
 }
+
 .card-img {
   object-fit: cover;
-  height:30vh;
+  height: 30vh;
 }
+
 /* Set position for main heading to overlay on the carousel */
 .carousel-div {
   position: relative;
 }
 
 .main-heading {
-  top: 50%; 
-  left: 50%; 
-  transform: translate(-50%, -50%); 
-  color: white; 
-  z-index: 10; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  z-index: 10;
 }
 
 .main-heading h2 {
-  font-size: 2rem; 
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -57,20 +77,23 @@
   .carousel-div {
     position: relative;
   }
-  
+
   .main-heading {
-    top: 25%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    color: white; 
-    z-index: 10; 
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10;
   }
+
   .main-heading h2 {
     font-size: 1.5rem;
   }
+
   .test-carousel {
     width: 100%;
   }
+
   .card-product {
     background-color: var(--theme-color);
     padding: 20px;
@@ -78,8 +101,9 @@
     color: white;
     text-align: justify;
   }
+
   .card-img {
     object-fit: container;
-    height:24vh;
+    height: 24vh;
   }
 }
